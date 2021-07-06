@@ -59,7 +59,7 @@ h2{
 .menu_item{
     width: 30%;
     padding: 3%;
-    border-radius: 10px;
+    border-radius: 15px;
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: 10px 10px 40px gray;
@@ -74,14 +74,28 @@ h2{
 }
 .menu{
     margin-top: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 170px;
+}
+
+.stat{
+    width: 85%;
+    display: flex;
+    margin: 70px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px  grey;
+    border-radius: 10px;
+}
+.stat_info{
+    padding-left: 210px;
 }
 
 footer{
+    margin-top: 100px;
     text-align: center;
 }
 h3{
     font-size: 25px;
+    text-align: center;
 }
 .down{
     background-color: black;
