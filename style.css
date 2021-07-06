@@ -1,5 +1,7 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
+    margin: 0%;
+    
     
 }
 h1{
@@ -92,6 +94,7 @@ h2{
 
 footer{
     margin-top: 7%;
+    margin: 0%;
     text-align: center;
 }
 h3{
