@@ -6,10 +6,13 @@ h1{
     font-size: 50px;
 }
 .tagcolor{
-    color: orange;
+    color: rgba(71, 5, 255, 0.726);
 }
 .top{
     display: flex;
+    background-image: url(images/shapes/back.png);
+    background-repeat: no-repeat;
+    background-position: center;
     margin-bottom: 80px;
 }
 .para{
@@ -21,13 +24,16 @@ h1{
     padding-right: 5%;
     padding-top: 5%;
 }
+.half-width h1{
+    padding-left: 30%;
+}
 .half-width img{
     width: 60%;
     padding-left: 15%;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(rgb(253, 14, 6),tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: whitesmoke;
@@ -37,8 +43,9 @@ h1{
     display: flex;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     margin-bottom: 80px;
+    margin-right: 0%;
 }
 
 #recipie{
@@ -49,36 +56,32 @@ h2{
     text-align: center;
     font-size: 40px;
 }
-.experience-info{
-    width: 40%;
-    padding: 3.5%;
+.menu_item{
+    width: 30%;
+    padding: 3%;
     border-radius: 10px;
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: 10px 10px 40px gray;
-    border-left: 10px solid;
-}
-.experience{
-    background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
-    background-position: left;
-}
-#exp-one{
-    border-left: 8px solid;
-    border-image: linear-gradient(red,tomato);
-    border-image-slice: 1;
-}
-#exp-two{
-    border-left: 8px solid;
-    border-image: linear-gradient(blue,cyan);
-    border-image-slice: 1;
     
 }
-footer p{
+.menu_item img{
+    width: 100%;
+    border-radius: 15px;
+}
+.flex{
+    display: flex;
+}
+.menu{
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+footer{
     text-align: center;
 }
-#foot{
-    text-align: center;
+h3{
+    font-size: 25px;
 }
 .down{
     background-color: black;
