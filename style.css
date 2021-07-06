@@ -13,7 +13,7 @@ h1{
     background-image: url(images/shapes/back.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 80px;
+    margin-bottom: 05%;
 }
 .para{
     text-align: justify;
@@ -44,7 +44,7 @@ h1{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 80px;
+    margin-bottom: 8%;
     margin-right: 0%;
 }
 
@@ -63,6 +63,7 @@ h2{
     margin-left: 5%;
     margin-right: 5%;
     box-shadow: 10px 10px 40px gray;
+    text-align: justify;
     
 }
 .menu_item img{
@@ -73,24 +74,24 @@ h2{
     display: flex;
 }
 .menu{
-    margin-top: 80px;
-    margin-bottom: 170px;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .stat{
     width: 85%;
     display: flex;
-    margin: 70px;
-    padding: 40px;
+    margin: 05%;
+    padding: 2%;
     box-shadow: 10px 10px 40px  grey;
     border-radius: 10px;
 }
 .stat_info{
-    padding-left: 210px;
+    padding-left: 17%;
 }
 
 footer{
-    margin-top: 100px;
+    margin-top: 7%;
     text-align: center;
 }
 h3{
